@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dictionary</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #translator {
+      margin: 50px auto;
+      width: 300px;
+      text-align: center;
+    }
+    input[type="text"] {
+      width: 200px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    #translations {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="translator">
+    <h2>Translator</h2>
+    <input type="text" id="wordInput" placeholder="Enter a word in English">
+    <button id="translateButton">Submit</button>
+    <div id="translations"></div>
+    <script src="content.js">
+    </script>
+  </div>
+</body>
+</html>
